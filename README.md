@@ -3,7 +3,7 @@ Oddworld: Munch's Oddysee HQ Cutscenes Tool Pack
 
 These are the scripts I used to convert the BIKs from the Xbox version over to high quality WMV files for PC.
 
-Also included is a AviSynth script + batch file for upscaling the BIKs using NNEDI3 neural-network upscaling. Admittedly this is a little over the top and results in some HUGE movie files (~8GB total at 4x upscale factor), but it beats using the games default upscaler :) You can change the upscale factor in the upscale.avs script, right now it's set to 4x (2560x1920), but you can change it to any power of 2 (2x gives decent results, 1920x960 @ ~2.7GB)
+Also included is a AviSynth script + batch file for upscaling the BIKs using NNEDI3 neural-network upscaling. Admittedly this is a little over the top and results in some HUGE movie files (~8GB total at 4x upscale factor), but it beats using the games default upscaler :) You can change the upscale factor in the upscale.avs script, right now it's set to 4x (2560x1920), but you can change it to any power of 2 (2x gives decent results, 1280x960 @ ~2.7GB)
 
 You'll need ffmpeg (preferrably 64-bit) to use ConvertBIK, for upscaling you'll need AviSynth+ r2085 (or newer) installed with the RawSourcePlus and nnedi3 plugins.
 
